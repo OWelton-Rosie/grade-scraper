@@ -1,11 +1,3 @@
-# scrape.py
-#
-# Usage:
-#   1. Create a .env file (see example above)
-#   2. pip install playwright python-dotenv
-#   3. playwright install
-#   4. python3 scrape.py
-
 from playwright.sync_api import sync_playwright
 from dotenv import load_dotenv
 import os, csv
